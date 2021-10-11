@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+<h1 align="center"><strong>CYBERPATIENT FRONT-END</strong></h1>
+<br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>🏗 <strong>Build and Run Instructions</strong></h2>
+<br>
 
-## Available Scripts
+<p>This is a [REACT.js](https://reactjs.org/) project bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app).
+</p>
 
-In the project directory, you can run:
+<p>Installation:</p>
 
-### `yarn start`
+```javascript
+$ npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>or alternatively,</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```javascript
+$ yarn install
+```
 
-### `yarn test`
+<br>
+<p>Running:</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open one terminal and execute the following command:
 
-### `yarn build`
+```javascript
+$ npx json-server --watch -p 3333 server.json
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open another temrinal to start the frontend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```javascript
+$ npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>or alternatively,</p>
 
-### `yarn eject`
+```javascript
+$ yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<hr>
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2><strong>Moving Around </strong></h2>
+<br>
+<p>Selecting name:<p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="./assets/search_name.gif">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
+<br>
+<p>Selecting category:<p>
 
-## Learn More
+<img src="./assets/search_category.gif">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
+<br>
+<p>Category dropdown<p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./assets/dropdown.gif">
+
+
+<br>
+<br>
+<p>Guilherme Eckert<p>
